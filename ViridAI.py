@@ -5,7 +5,7 @@ from dataset import to_device, get_device, get_image
 from model import get_model
 
 # Set up OpenAI API credentials
-openai.api_key = "[secret-key]"
+openai.api_key = [secret-key]
 
 # Function to call OpenAI API and get insights and recommendations
 def get_recommendation(predicted_label):
